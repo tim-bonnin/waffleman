@@ -1,0 +1,107 @@
+/* Colors and fonts */
+body {
+  background:#FFFAFF;
+  color: black;
+  font-family: Avenir Next, sans-serif;
+  font-size: 17px;
+  text-align: justify;
+}
+
+h1 {
+  color: #0A2463;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+
+h2 {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.text_light {
+  font-size: 18px;
+}
+
+h3 {
+  color:#3E92CC;
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #0A2463;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #D8315B;
+  font-size: 18px;
+}
+
+.container {
+  margin: 40px auto;
+  width: 800px;
+}
+
+@media (max-width: 760px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+
+
+/* custom with class */
+
+
+.box-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow:0px 10px 30px rgba(0, 0, 0, 0.10) ;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline i {
+font-size: 15px;
+color:  rgb(30, 30, 30);
+text-align: center;
+}
+
+
+.link-center {
+  text-align: center;
+}
+
+
